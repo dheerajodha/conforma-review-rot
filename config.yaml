@@ -9,13 +9,13 @@ git_services:
       - conforma/.github
       - conforma/go-gather
       - conforma/hacks
+      - conforma/policy
       - conforma/review-rot
       - conforma/tekton-catalog
       - conforma/user-guide
       - enterprise-contract/action-validate-image
       - enterprise-contract/config
       - enterprise-contract/ec-cli
-      - enterprise-contract/ec-policies
       - enterprise-contract/enterprise-contract-controller
       - enterprise-contract/.github
       - enterprise-contract/github-workflows
