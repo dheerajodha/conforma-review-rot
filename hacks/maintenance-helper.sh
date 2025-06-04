@@ -3,6 +3,7 @@ set -euo pipefail
 
 # GitHub orgs we're interested in
 GITHUB_ORGS="
+  conforma
   enterprise-contract
   konflux-ci
   redhat-appstudio
