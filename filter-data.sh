@@ -9,6 +9,7 @@ authors='[
   "lcarva",
   "robnester-rh",
   "simonbaird",
+  "st3penta",
   "zregvart",
   "ec-automation[bot]"
 ]'
