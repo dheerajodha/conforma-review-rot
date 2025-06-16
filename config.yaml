@@ -3,23 +3,25 @@ arguments:
 git_services:
   - host: github.com
     repos:
+      - conforma/action-validate-image
+      - conforma/cli
       - conforma/community
       - conforma/conforma.github.io
+      - conforma/controller
       - conforma/demos
       - conforma/.github
       - conforma/go-gather
-      - conforma/hacks
+      - conforma/golden-container
       - conforma/policy
+      - conforma/hacks
       - conforma/review-rot
       - conforma/tekton-catalog
       - conforma/user-guide
-      - enterprise-contract/action-validate-image
       - enterprise-contract/config
-      - enterprise-contract/ec-cli
       - enterprise-contract/enterprise-contract-controller
       - enterprise-contract/.github
       - enterprise-contract/github-workflows
-      - enterprise-contract/golden-container
+      - enterprise-contract/go-containerregistry
       - enterprise-contract/hooks
       - enterprise-contract/infra-deployments-ci
       - enterprise-contract/policy_builder
@@ -31,6 +33,8 @@ git_services:
       - konflux-ci/konflux-test
       - konflux-ci/release-service-catalog
       - redhat-appstudio/infra-deployments
+      - konflux-ci/tektor
+      - redhat-appstudio/tssc-dev-multi-ci
       - redhat-appstudio/tssc-sample-templates
       - tektoncd/chains
     token: "${GITHUB_TOKEN}"
