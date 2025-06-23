@@ -1,6 +1,7 @@
 arguments:
   format: json
   reverse: True
+  categorize_automated: True
 git_services:
   - host: github.com
     repos:
