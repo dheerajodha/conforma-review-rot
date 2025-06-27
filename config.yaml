@@ -23,7 +23,7 @@ git_services:
       - conforma/config
       - enterprise-contract/enterprise-contract-controller
       - enterprise-contract/.github
-      - enterprise-contract/github-workflows
+      - conforma/github-workflows
       - enterprise-contract/go-containerregistry
       - enterprise-contract/infra-deployments-ci
       - enterprise-contract/policy_builder
