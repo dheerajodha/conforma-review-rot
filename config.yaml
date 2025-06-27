@@ -16,6 +16,7 @@ git_services:
       - conforma/golden-container
       - conforma/policy
       - conforma/hacks
+      - conforma/hooks
       - conforma/review-rot
       - conforma/tekton-catalog
       - conforma/user-guide
@@ -24,7 +25,6 @@ git_services:
       - enterprise-contract/.github
       - enterprise-contract/github-workflows
       - enterprise-contract/go-containerregistry
-      - enterprise-contract/hooks
       - enterprise-contract/infra-deployments-ci
       - enterprise-contract/policy_builder
       - konflux-ci/build-definitions
