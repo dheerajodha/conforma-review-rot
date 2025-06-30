@@ -5,28 +5,28 @@ arguments:
 git_services:
   - host: github.com
     repos:
+      - conforma/.github
       - conforma/action-validate-image
       - conforma/cli
       - conforma/community
       - conforma/conforma.github.io
       - conforma/controller
       - conforma/demos
-      - conforma/.github
+      - conforma/github-workflows
+      - conforma/go-containerregistry
       - conforma/go-gather
       - conforma/golden-container
+      - conforma/infra-deployments-ci
       - conforma/policy
       - conforma/hacks
       - conforma/hooks
+      - conforma/policy-builder
       - conforma/review-rot
       - conforma/tekton-catalog
       - conforma/user-guide
       - conforma/config
       - enterprise-contract/enterprise-contract-controller
-      - enterprise-contract/.github
-      - conforma/github-workflows
-      - enterprise-contract/go-containerregistry
-      - enterprise-contract/infra-deployments-ci
-      - enterprise-contract/policy_builder
+      - enterprise-contract/.github 
       - konflux-ci/build-definitions
       - konflux-ci/build-trusted-artifacts
       - konflux-ci/docs
