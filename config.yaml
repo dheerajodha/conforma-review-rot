@@ -10,7 +10,7 @@ git_services:
       - conforma/cli
       - conforma/community
       - conforma/conforma.github.io
-      - conforma/controller
+      - conforma/knative-service
       - conforma/demos
       - conforma/github-workflows
       - conforma/go-containerregistry
